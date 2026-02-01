@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-main-text: #f7f3eb;
+  --color-badge-bg: #f7f4eb;
+  --color-dark-text: #171512;
+  --color-dark-bg: #585244;
+  --color-gradient-start: #fff7e2;
+  --color-input-text: #eaeaea;
+  --color-success: #1D8044;
+  --color-error: #9A1C1A;
+  --color-white: #ffffff;
+  --color-input-bg-mobile: #2c2a25;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--color-dark-bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+input::placeholder {
+  color: var(--color-input-text);
+  opacity: 0.8;
+}
+
+.button-primary:hover {
+  background-color: var(--color-white) !important;
+}
+
