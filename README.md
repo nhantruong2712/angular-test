@@ -23,7 +23,13 @@ The following emails are whitelisted for testing:
 npm install
 ```
 
-## Development
+## Deployed URL
+[View Live Demo](https://angular-test-jade-mu.vercel.app/)
+
+## Demo Image
+![Demo Image](./demo-img.png)
+
+## Development (Local)
 
 ```bash
 npm start
